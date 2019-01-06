@@ -1,4 +1,20 @@
+
 h1{
     color: red;;
     background-color: rgba(108, 255, 90, 0.5);x
+}
+p {
+    font-size: 30px;
+    font-family: sans-seriff;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration:none;
+
+#oof {
+    color: red;
+    font-style: normal;
+    text-decoration: none
+}
+img{
+    opacity: 0.5
 }
