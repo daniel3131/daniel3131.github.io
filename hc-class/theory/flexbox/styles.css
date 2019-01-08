@@ -1,0 +1,29 @@
+/* Apply flex to the parent of the list items*/
+.nav-list {
+    display: flex;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    flex-direction: row; /*row, row reverse, column, column-reverse*/
+/*main axis and crooss-axis*/
+/*the main axis of a flex container  is parralel to the flex direction */
+/* the cross axis is perpindicular to the main axis */ 
+}
+.container {
+display: flex;
+border: solid 1px;
+flex-flow: row wrap;
+justify-content: space-evenly;
+align-items: flex-end;
+}
+.rectangle{
+    /*width: 300px
+    height: 200px */
+
+}
+.orange{
+    background-color: orange;
+}
+.skyblue{
+    background-color: skyblue;
+}
+    
